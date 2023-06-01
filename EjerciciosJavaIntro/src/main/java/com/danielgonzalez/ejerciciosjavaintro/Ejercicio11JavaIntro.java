@@ -61,24 +61,28 @@ public class Ejercicio11JavaIntro {
                     opcion = leer.nextInt();
                 }
                 case 2 -> {
+                    System.out.println("");
                     System.out.println("El resultado de restar los dos numeros es igual a: " + (num1 - num2));
                     System.out.println("");
                     menu();
                     opcion = leer.nextInt();
                 }
                 case 3 -> {
+                    System.out.println("");
                     System.out.println("El resultado de multiplicar los dos numeros es igual a: " + (num1 * num2));
                     System.out.println("");
                     menu();
                     opcion = leer.nextInt();
                 }
                 case 4 -> {
+                    System.out.println("");
                     System.out.println("El resultado de dividir los dos numeros es igual a: " + (num1 / num2));
                     System.out.println("");
                     menu();
                     opcion = leer.nextInt();
                 }
                 case 5 -> {
+                    System.out.println("");
                     System.out.println("Esta seguro que desea salir de la calculadora? (S/N)");
                     String rpt = leer.next();
                     respuesta = rpt.toUpperCase();
@@ -89,6 +93,7 @@ public class Ejercicio11JavaIntro {
                     }
                 }
                 default -> {
+                        System.out.println("");
                         System.out.println("Ha ingresado una opción incorrecta, vuelva a intentarlo");
                         System.out.println("");
                         menu();
