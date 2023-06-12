@@ -29,7 +29,7 @@ public class EjercicioExtra03JavaIntro {
         String letra = input.toLowerCase();
         
         if (letra.equals("a") || letra.equals("e") || letra.equals("i") || letra.equals("o") || letra.equals("u")) {
-            System.out.println("Es una vocal :)");
+            System.out.println("La letra es una vocal :)");
         } else {
             System.out.println("La letra no es una vocal :(");
         }
